@@ -113,79 +113,79 @@ Here is the visual representation of the database schema used in this project:
 ```bash
 semester/
 ├── src/
-│   ├── main/
-│   │   ├── java/com/ravi/semester/
-│   │   │   ├── config/
-│   │   │   │   ├── RequestInterceptor.java
-│   │   │   │   ├── SecurityConfig.java
-│   │   │   │   └── WebConfig.java
-│   │   │   ├── controller/
-│   │   │   │   ├── AttendanceController.java
-│   │   │   │   ├── BlogController.java
-│   │   │   │   ├── EventController.java
-│   │   │   │   ├── FacultyController.java
-│   │   │   │   ├── IndsPartnerController.java
-│   │   │   │   ├── LabChangeRequestController.java
-│   │   │   │   ├── LabController.java
-│   │   │   │   ├── LoginController.java
-│   │   │   │   ├── StudentController.java
-│   │   │   │   └── UserController.java
-│   │   │   ├── dto/
-│   │   │   │   ├── CategoryRequestDto.java
-│   │   │   │   ├── CommentDTO.java
-│   │   │   │   ├── FacultyDTO.java
-│   │   │   │   ├── IndsPartnerDto.java
-│   │   │   │   ├── LabChangeRequestDTO.java
-│   │   │   │   ├── LabDTO.java
-│   │   │   │   ├── PostDTO.java
-│   │   │   │   ├── StudentDTO.java
-│   │   │   │   └── UserDto.java
-│   │   │   ├── model/
-│   │   │   │   ├── Attendance.java
-│   │   │   │   ├── Category.java
-│   │   │   │   ├── Comment.java
-│   │   │   │   ├── Event.java
-│   │   │   │   ├── Faculty.java
-│   │   │   │   ├── IndsPartner.java
-│   │   │   │   ├── Lab.java
-│   │   │   │   ├── LabChangeRequest.java
-│   │   │   │   ├── Post.java
-│   │   │   │   └── Student.java
-│   │   │   ├── repository/
-│   │   │   │   ├── AttendanceRepository.java
-│   │   │   │   ├── CategoryRepo.java
-│   │   │   │   ├── CommentRepo.java
-│   │   │   │   ├── EventRepository.java
-│   │   │   │   ├── FacultyRepo.java
-│   │   │   │   ├── IndsPartnerRepo.java
-│   │   │   │   ├── LabChangeRequestRepo.java
-│   │   │   │   ├── LabRepo.java
-│   │   │   │   ├── PostRepo.java
-│   │   │   │   └── StudentRepo.java
-│   │   │   ├── service/
-│   │   │   │   ├── AttendanceService.java
-│   │   │   │   ├── BlogService.java
-│   │   │   │   ├── EmailSenderService.java
-│   │   │   │   ├── EventService.java
-│   │   │   │   ├── FacultyService.java
-│   │   │   │   ├── IndsPartnerService.java
-│   │   │   │   ├── LabChangeRequestService.java
-│   │   │   │   ├── LabService.java
-│   │   │   │   └── StudentService.java
-│   │   │   └── SemesterApplication.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       ├── static/
-│   │       └── templates/
-│   │           ├── lab_change_approved.html
-│   │           ├── lab_change_rejected.html
-│   │           ├── lab_change_sucess.html
-│   │           ├── lab_regs_approved.html
-│   │           ├── lab_regs_rejected.html
-│   │           └── lab_regs_sucess.html
-│   └── test/
-│       └── java/com/ravi/semester/
-│           └── SemesterApplicationTests.java
+   ├── main/
+   │   ├── java/com/ravi/semester/
+   │   │   ├── config/
+   │   │   │   ├── RequestInterceptor.java
+   │   │   │   ├── SecurityConfig.java
+   │   │   │   └── WebConfig.java
+   │   │   ├── controller/
+   │   │   │   ├── AttendanceController.java
+   │   │   │   ├── BlogController.java
+   │   │   │   ├── EventController.java
+   │   │   │   ├── FacultyController.java
+   │   │   │   ├── IndsPartnerController.java
+   │   │   │   ├── LabChangeRequestController.java
+   │   │   │   ├── LabController.java
+   │   │   │   ├── LoginController.java
+   │   │   │   ├── StudentController.java
+   │   │   │   └── UserController.java
+   │   │   ├── dto/
+   │   │   │   ├── CategoryRequestDto.java
+   │   │   │   ├── CommentDTO.java
+   │   │   │   ├── FacultyDTO.java
+   │   │   │   ├── IndsPartnerDto.java
+   │   │   │   ├── LabChangeRequestDTO.java
+   │   │   │   ├── LabDTO.java
+   │   │   │   ├── PostDTO.java
+   │   │   │   ├── StudentDTO.java
+   │   │   │   └── UserDto.java
+   │   │   ├── model/
+   │   │   │   ├── Attendance.java
+   │   │   │   ├── Category.java
+   │   │   │   ├── Comment.java
+   │   │   │   ├── Event.java
+   │   │   │   ├── Faculty.java
+   │   │   │   ├── IndsPartner.java
+   │   │   │   ├── Lab.java
+   │   │   │   ├── LabChangeRequest.java
+   │   │   │   ├── Post.java
+   │   │   │   └── Student.java
+   │   │   ├── repository/
+   │   │   │   ├── AttendanceRepository.java
+   │   │   │   ├── CategoryRepo.java
+   │   │   │   ├── CommentRepo.java
+   │   │   │   ├── EventRepository.java
+   │   │   │   ├── FacultyRepo.java
+   │   │   │   ├── IndsPartnerRepo.java
+   │   │   │   ├── LabChangeRequestRepo.java
+   │   │   │   ├── LabRepo.java
+   │   │   │   ├── PostRepo.java
+   │   │   │   └── StudentRepo.java
+   │   │   ├── service/
+   │   │   │   ├── AttendanceService.java
+   │   │   │   ├── BlogService.java
+   │   │   │   ├── EmailSenderService.java
+   │   │   │   ├── EventService.java
+   │   │   │   ├── FacultyService.java
+   │   │   │   ├── IndsPartnerService.java
+   │   │   │   ├── LabChangeRequestService.java
+   │   │   │   ├── LabService.java
+   │   │   │   └── StudentService.java
+   │   │   └── SemesterApplication.java
+   │   └── resources/
+   │       ├── application.properties
+   │       ├── static/
+   │       └── templates/
+   │           ├── lab_change_approved.html
+   │           ├── lab_change_rejected.html
+   │           ├── lab_change_sucess.html
+   │           ├── lab_regs_approved.html
+   │           ├── lab_regs_rejected.html
+   │           └── lab_regs_sucess.html
+   └── test/
+       └── java/com/ravi/semester/
+           └── SemesterApplicationTests.java
 ```
 ---
 
