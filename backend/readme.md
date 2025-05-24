@@ -196,47 +196,29 @@ semester/
   Sets the name of the Spring Boot application.
 
 ### 🗄️ Database Configuration
-- `spring.jpa.hibernate.ddl-auto=update`  
-  Automatically updates the database schema on application start.
-- `spring.datasource.url=jdbc:mysql://localhost:3306/pic`  
-  MySQL database URL with database name `pic`.
-- `spring.datasource.username=root`  
-  Database username.
-- `spring.datasource.password=ravi`  
-  Database password.
-- `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`  
-  MySQL JDBC driver.
+- `spring.jpa.hibernate.ddl-auto=update`  Automatically updates the database schema on application start.
+- `spring.datasource.url=jdbc:mysql://localhost:3306/pic`  MySQL database URL with database name `pic`.
+- `spring.datasource.username=root`  Database username.
+- `spring.datasource.password=<ravi>`  Database password.
+- `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`  MySQL JDBC driver.
 
 ### 📧 Email (SMTP) Configuration for Gmail
-- `spring.mail.host=smtp.gmail.com`  
-  Gmail SMTP server.
-- `spring.mail.port=587`  
-  SMTP port for TLS.
-- `spring.mail.username=`  
-  Your Gmail email address (fill this).
-- `spring.mail.password=`  
-  Your Gmail app password or actual password (fill this).
-- `spring.mail.properties.mail.smtp.auth=true`  
-  Enable SMTP authentication.
-- `spring.mail.properties.mail.smtp.starttls.enable=true`  
-  Enable STARTTLS encryption.
+- `spring.mail.host=smtp.gmail.com`  Gmail SMTP server.
+- `spring.mail.port=587`  SMTP port for TLS.
+- `spring.mail.username=<email>`  Your Gmail.
+- `spring.mail.password=<pass>`  Your Gmail app password.
+- `spring.mail.properties.mail.smtp.auth=true`  Enable SMTP authentication.
+- `spring.mail.properties.mail.smtp.starttls.enable=true`  Enable STARTTLS encryption.
 
 ### 🔐 OAuth2 Google Authentication Configuration
-- `spring.security.oauth2.client.registration.google.client-id=`  
-  Your Google OAuth2 client ID (fill this).
-- `spring.security.oauth2.client.registration.google.client-secret=`  
-  Your Google OAuth2 client secret (fill this).
-- `spring.security.oauth2.client.registration.google.redirect-uri=/login/oauth2/code/google`  
-  Redirect URI after Google login.
-- `spring.security.oauth2.client.registration.google.scope=openid,profile,email`  
-  OAuth scopes requested.
+- `spring.security.oauth2.client.registration.google.client-id=<Your Google OAuth2 client ID>`  
+- `spring.security.oauth2.client.registration.google.client-secret= <Your Google OAuth2 client secret>`   
+- `spring.security.oauth2.client.registration.google.redirect-uri=/login/oauth2/code/google`  Redirect URI after Google login.  
+- `spring.security.oauth2.client.registration.google.scope=openid,profile,email`  OAuth scopes requested.
 
 ### 🔒 Session Cookie Settings
-- `server.servlet.session.cookie.same-site=None`  
-  Allow cross-site cookies.
-- `server.servlet.session.cookie.secure=true`  
-  Ensure cookies are sent only over HTTPS.
-
+- `server.servlet.session.cookie.same-site=None`  Allow cross-site cookies.
+- `server.servlet.session.cookie.secure=true`  Ensure cookies are sent only over HTTPS.
 ---
 
 ### ⚠️ **Important:**
