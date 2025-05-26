@@ -27,37 +27,54 @@
 ## 📸 UI Screenshots
 
 ### 🔐 Login Page
-![Login Page](./Website-Images/1.png)
+![Login Page](./Website-Images/Login.jpeg)
 
 ---
 
-### 📊 Dashboard Page
-![Dashboard](./Website-Images/2.png)
+### 📊 Admin Dashboard Page
+![Dashboard](./Website-Images/admin1.jpeg)
+
+---
+
+### 📊 Faculty Dashboard Page
+![Dashboard](./Website-Images/faculty.jpeg)
+
+---
+### 📊 Student Dashboard Page
+![Dashboard](./Website-Images/Student1.jpeg)
+
+---
+### 📊 Industrial Partner Dashboard Page
+![Dashboard](./Website-Images/IndsPartner.jpeg)
 
 ---
 
 ### 🗓️ Attendance Page
-![Attendance](./Website-Images/3.png)
+![Attendance](./Website-Images/Attendance.jpeg)
 
 ---
 
 ### 💬 Discuss Forum Page
-![Discuss Forum](./Website-Images/4.png)
+![Discuss Forum](./Website-Images/Discussion.jpeg)
+
+---
+### 💬 Discuss Forum's Posts Page
+![Discuss Forum](./Website-Images/Posts.jpeg)
 
 ---
 
 ### 📝 Lab Register & Change Page (Student)
-![Lab Register](./Website-Images/5.png)
+![Lab Register](./Website-Images/Lab-Registration.jpeg)
 
 ---
 
 ### 📥 Requests Page (Faculty)
-![Requests Page](./Website-Images/6.png)
+![Requests Page](./Website-Images/facultyRequests.jpeg)
 
 ---
 
 ### 🧾 Labs Page (Admin)
-![Labs Page](./Website-Images/7.png)
+![Labs Page](./Website-Images/Labs.jpeg)
 
 ---
 
