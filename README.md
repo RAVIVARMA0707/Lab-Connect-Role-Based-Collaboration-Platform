@@ -36,15 +36,15 @@
 
 ---
 
-### 📊 Faculty Dashboard Page
+### 👨‍🏫 Faculty Dashboard Page
 ![Dashboard](./Website-Images/faculty.jpeg)
 
 ---
-### 📊 Student Dashboard Page
+### 🧑‍🎓 Student Dashboard Page
 ![Dashboard](./Website-Images/Student1.jpeg)
 
 ---
-### 📊 Industrial Partner Dashboard Page
+### 👷‍♂️ Industrial Partner Dashboard Page
 ![Dashboard](./Website-Images/IndsPartner.jpeg)
 
 ---
